@@ -4,8 +4,6 @@ var consign = require('consign');
 
 var bodyParser = require('body-parser');
 
-express.set('view engine', 'ejs');
-
 express.use(bodyParser.urlencoded({extended: true}));
 express.use(bodyParser.json());
 
