@@ -4,7 +4,7 @@ module.exports = function(app){
 
         console.log('Rota: Raíz (/)');
 
-        res.send('Rota: Raíz (/)');
+        res.render('index');
 
     });
 
