@@ -1,0 +1,22 @@
+{
+  "name": "buzin-corporate",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de condomínios",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "condomínios",
+    "gerenciamento",
+    "administração",
+    "automação"
+  ],
+  "author": "Henrique Antonio Buzin Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "consign": "^0.1.6",
+    "express": "^4.15.3"
+  }
+}
