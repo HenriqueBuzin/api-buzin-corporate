@@ -8,7 +8,7 @@ module.exports = function(app){
 
     });
 
-	app.get('/api/v1/pagamentos', function(req, res){
+	app.get('/pagamentos', function(req, res){
 
 		console.log('Rota: Pagamentos');
 
@@ -16,13 +16,15 @@ module.exports = function(app){
 
 	});
 
-	app.post('/api/v1/pagamentos/pagamento', function(req, res){
+	app.post('/pagamentos/pagamento', function(req, res){
 
-		var pagamento = res.body;
+		var pagamento = req.body;
 
         console.log('Rota: Pagamentos/Pagamento');
 
-		res.send('Rota: Pagamentos/Pagamento');
+        pagamento.forma = 'Cartão de Crédito';
+
+		res.send(pagamento);
 
 	});
 
