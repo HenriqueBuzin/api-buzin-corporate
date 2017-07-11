@@ -1,19 +1,25 @@
 {
   "name": "buzin-corporate",
   "version": "1.0.0",
-  "description": "Sistema de gerenciamento de condomínios",
+  "description": "Sistema de Gerenciamento de Condomínios",
   "main": "app.js",
   "scripts": {
     "test": "node app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenriqueBuzin/buzin-corporate.git"
+  },
   "keywords": [
-    "condomínios",
-    "gerenciamento",
-    "administração",
+    "Condomínio",
     "automação"
   ],
   "author": "Henrique Antonio Buzin Vargas",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenriqueBuzin/buzin-corporate/issues"
+  },
+  "homepage": "https://github.com/HenriqueBuzin/buzin-corporate#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
     "consign": "^0.1.6",
